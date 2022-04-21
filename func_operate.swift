@@ -2,7 +2,7 @@ import Foundation
 func operate() -> String {
     print("Введите оператор")
     var a: String?
-loop: while true {
+    while true {
         a = readLine()
         switch a {
         case "/", "+", "-", "*", "^" :
